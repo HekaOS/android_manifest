@@ -49,10 +49,17 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="heka" />
   <project path="hardware/heka/interfaces" name="android_hardware_heka_interfaces" remote="heka" />
 
+  <!-- prebuilts -->
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="heka" />
+  <project path="prebuilts/tools-heka" name="android_prebuilts_tools-heka" remote="heka" />
+
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="heka" />
   <project path="system/media" name="android_system_media" remote="heka" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="heka" />
+
+  <!-- tools -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="heka" />
 
   <!-- vendor -->
   <project path="vendor/gms" name="android_vendor_gms" remote="heka-gitlab" />
